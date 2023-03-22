@@ -1,0 +1,333 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    color: white
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    height: 597px;
+    background: url('../images/bg1.png') no-repeat center top / cover;
+}
+header a {
+    color: #fff;
+}
+.menu {
+    display: flex;
+    margin-left: auto;
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+}
+.menu li {
+    margin-right: 45px;
+}
+
+.nav {
+    display: flex;
+    padding-top: 57px;
+    align-items: center;
+}
+.logo {
+    width: 116px;
+    height: 36px;
+
+}
+.block_1_text {
+    padding-top: 144px;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+    padding-left: 267px;
+    padding-right: 267px;
+    font-size: 42px;
+    line-height: 49px;
+    color: #f7f3ea;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.button_1_text {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    padding: 28px;
+    border-radius: 4px;
+    background-color: #eb7d4b;
+    text-decoration: none;
+    line-height: 26px;
+    font-weight: 600;
+    width: 300px;
+    margin: 53px 573px 141px 573px;
+    text-transform: uppercase;
+}
+.button_1 {
+    width: 77px;
+    height: 32px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #643a79;
+    margin-right: -15px;
+}
+.team {
+    background: url('../images/bg2.png') no-repeat center top / cover;
+    height: 916px;
+}
+section {
+    padding-top: 120px;
+}
+.heading2 {
+    font-size: 41px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #3c4761;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+.meet {
+    text-align: center;
+}
+.line {
+    margin-top: 21px;
+    margin-bottom: 24px;
+}
+.text_heading2 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    font-weight: 400;
+}
+.name {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #3c4761;
+    font-weight: 700;
+}
+.employees {
+    display: flex;
+    text-align: center;
+}
+.portret {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #878787;
+    margin-top: 70px;
+}
+.icons {
+    display: flex;
+    text-align: center;
+}
+.icon_1 {
+    width: 32px;
+    border-radius: 16px;
+    background-color: #bdd1df;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 10px;
+}
+.job {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #30bae7;
+    font-weight: 400;
+}
+.description {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #3c4761;
+    font-weight: 300;
+    width: 200px;
+}
+.employer {
+    display: flex;
+    margin-left: 120px;
+}
+.men {
+    margin-left: 80px;
+}
+.icon_2 {
+    width: 32px;
+    border-radius: 16px;
+    background-color: #bdd1df;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 10px;
+}
+.icon_2_1 {
+    width: 32px;
+    border-radius: 16px;
+    background-color: #bdd1df;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 40px;
+}
+.get {
+    background: url('../images/bg3.png') no-repeat center top / cover;
+    height: 820px;
+}
+.heading3 {
+    text-align: center;
+}
+.block_3_up {
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.block_3_text {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.Your_Email__ {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color:#fff;
+    line-height: 1;
+    text-align: left;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 735px;
+    padding: 20px;
+}
+
+.Your_Email__:after {
+    position: absolute;
+    content: " *";
+    color: red;
+}
+
+.Base1 {
+    border-radius: 4px;
+    background-color: rgb(39, 58, 113);
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 735px;
+    width: 414px;
+    height: 56px;
+}
+
+.Your_Name__ {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    line-height: 1;
+    text-align: left;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 290px;
+    padding: 20px;
+}
+
+.Your_Name__:after {
+    position: absolute;
+    content: " *";
+    color: red;
+}
+
+.Base2 {
+    border-radius: 4px;
+    background-color: rgb(39, 58, 113);
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 290px;
+    width: 414px;
+    height: 56px;
+}
+
+.Your_Message__ {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    line-height: 1;
+    text-align: left;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 290px;
+    padding: 20px;
+}
+
+.Your_Message__:after {
+    position: absolute;
+    content: " *";
+    color: red;
+}
+
+.Base3 {
+    border-radius: 4px;
+    background-color: rgb(39, 58, 113);
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 290px;
+    width: 860px;
+    height: 200px;
+}
+
+input:focus + label {
+    display: none;
+}
+
+textarea:focus + label {
+    display: none;
+}
+
+.SocialLinks {
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.246;
+    text-align: center;
+    position: center;
+    left: 0;
+    top: 0;
+
+}
+
+.footer {
+    display: block;
+    background-color: rgb(52, 75, 142);
+    position: relative;
+    left: 0;
+    height: 113px;
+    width: auto;
+    margin-top: -25px;
+    padding-top: 25px;
+}
+.Shape_345 {
+    border-radius: 4px;
+    background-color: rgb(48, 186, 231);
+    width: 293px;
+    height: 70px;
+    margin-left: 573px;
+    margin-top: 450px;
+}
+.SEND_MESSAGE {
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.455;
+    text-align: left;
+    position: center;
+}
