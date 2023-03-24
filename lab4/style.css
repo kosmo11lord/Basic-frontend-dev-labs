@@ -1,0 +1,243 @@
+@font-face {font-family: Roboto; src: url("Roboto-Regular.ttf")}
+
+html {
+    background: rgba(30, 144, 255, 0.5);
+    font-family: Roboto;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 17px;
+}
+
+.Container {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.saly {
+    flex: 1;
+}
+.img {
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+
+.main {
+    display: flex;
+
+}
+.bod {
+    flex: 1;
+}
+
+.text {
+    font-size: 24px; 
+    max-width: 550px;
+}
+.text2 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+.email {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #2A92F9;
+    width: 44%;
+    height: 50px;
+}
+
+.signup2 {
+    background: #4140CD;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 0px;
+}
+
+::placeholder {
+    color: #9F9F9F;
+}
+
+input{
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content:  space-between;
+    flex-wrap: wrap;
+
+    background-color: white;
+    height: 84px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+
+.logo {
+    font-weight: 700;
+    font-size: 36px;
+    color: #0A2541;
+    margin: 0px;
+    
+}
+.signup {
+    background: #FFFFFF;
+    border: 1px solid #7372FF;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-right: 50px;
+}
+.signin {
+    background: #4443D0;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-decoration: none;
+}
+.nav {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 80px;
+}
+
+
+
+
+.bmenu {
+    height: 32px;
+    width: 32px;
+}
+
+.header .show-menu {
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(125deg, #0b0e11, transparent);
+    width: 66%;
+    height: 100%;
+}
+.closediv .show-menu {
+    display: block;
+}
+.menu .direction {
+    flex-direction: column;
+    display: flex;
+}
+.burger {
+    background: none;
+    border: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav {
+        margin-right: 40px;
+    }
+    .signup {
+        margin-right: 15px;
+    }
+    /*
+    .saly {
+        display: none;
+    }*/
+    .main {
+        display: block;
+    }
+}
+@media screen and (max-width: 900px) {
+    .nav {
+        margin-right: 20px;
+    }
+    .signup {
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .nav {
+        margin-right: 10px;
+    }
+    .signup {
+        margin-right: 5px;
+    }
+}
+@media screen and (min-width: 725px) {
+    .burger{
+        display: none;
+    }
+    .bmenu {
+        display: none;
+    }
+    .close {
+        display: none;
+    }
+}
+@media screen and (max-width: 724px) {
+    .menu1 {
+        display: none;
+    }
+    .bmenu {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        max-width: 120px;
+    }
+    .close {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: 10px;
+        margin-top: 10px;
+        background: none;
+        border: 0;
+        font-size: 18px;
+        color: white;
+        display: none;
+    }
+    .signup {
+        padding: 4px;
+        max-width: 55px;
+        margin-bottom: 20px;
+        border-color: white;
+    }
+    .signin {
+        padding: 4px;
+        max-width: 55px;
+    }
+    .nav {
+        color: white;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .header {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
