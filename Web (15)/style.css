@@ -1,0 +1,43 @@
+/* Стиль для контейнера изображений */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стиль для изображений */
+.image {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Стиль для увеличенного изображения */
+.overlay img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Стиль для тени у изображения при наведении */
+.image:hover {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Стиль для изменения размера изображения при наведении */
+.image:hover:not(.active) {
+  transform: scale(1.2);
+}
+
+/* Стиль для заднего фона */
+body {
+  background-Size: cover;
+  background-Repeat: repeat-y;
+}
